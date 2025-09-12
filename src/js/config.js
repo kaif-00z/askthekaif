@@ -1,6 +1,6 @@
 export const CONFIG = {
 	defaultTheme: 'deepsea',
-	seasonalTheme: true, // will change the default theme based on the date
+	seasonalTheme: false, // will change the default theme based on the date
 
 	// effects
 	effectsDisabledByDefault: false,
@@ -9,7 +9,7 @@ export const CONFIG = {
 
 	// additional effects
 	crtEffect: true,
-	noiseEffect: true,
+	noiseEffect: false,
 	grungeOverlay: true,
 
 	// tabs
